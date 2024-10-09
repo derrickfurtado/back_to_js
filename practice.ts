@@ -11,3 +11,7 @@
 // console.log("X plus Y = ", z)
 
 // console.log(typeof(x))
+
+// let integer1 = 123
+
+// integer1 = true
