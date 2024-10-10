@@ -1,6 +1,8 @@
 console.log(`runningCode.ts connected`)
 
 
-alert("Hello, World!")
+// alert("Hello, World!")
+
+console.error("Uh Oh!")
 
 
