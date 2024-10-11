@@ -32,28 +32,44 @@ let day = 1
 
 day = 4
 
-switch(day) {                       /// easier to read
-    case 1:
-        console.log("Monday")
-        break
-    case 2:
-        console.log("Tuesday")
-        break
-    case 3:
-        console.log("Wednesday")
-        break
-    case 4:
-        console.log("Thrusday")
-        break
-    case 5:
-        console.log("Friday")
-        break
-    case 6:
-        console.log("Saturday")
-        break
-    case 7:
-        console.log("Sunday")
-        break
-    default:
-        console.log("Invalid day")
-}
+// switch(day) {                       /// easier to read
+//     case 1:
+//         console.log("Monday")
+//         break
+//     case 2:
+//         console.log("Tuesday")
+//         break
+//     case 3:
+//         console.log("Wednesday")
+//         break
+//     case 4:
+//         console.log("Thrusday")
+//         break
+//     case 5:
+//         console.log("Friday")
+//         break
+//     case 6:
+//         console.log("Saturday")
+//         break
+//     case 7:
+//         console.log("Sunday")
+//         break
+//     default:
+//         console.log("Invalid day")
+// }
+
+
+/// Ternary Operators:
+
+day = 5
+
+// day === 5 ? console.log("TGIF") : console.log("I miss Fridays")
+
+//////////////////////////////
+
+
+// let stat = 5
+
+// let color = (stat === 0 ? "RED" : "GREEN")
+
+// console.log(color)
