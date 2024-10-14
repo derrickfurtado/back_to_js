@@ -73,3 +73,20 @@ day = 5
 // let color = (stat === 0 ? "RED" : "GREEN")
 
 // console.log(color)
+
+
+function fibonachi(n:number) {
+    let fibo = [0, 1]
+    
+    if(n === 0) return [0]
+    if(n === 1) return [0,1]
+        
+    for(let i = 2; i <= n; i++){
+        let next = fibo[i-1] + fibo[i-2]
+        fibo.push(next)
+    }
+    fibo.splice(1,1)
+    return fibo
+}
+
+console.log(fibonachi(10))
